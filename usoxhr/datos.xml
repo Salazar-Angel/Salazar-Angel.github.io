@@ -1,0 +1,24 @@
+<clientes>
+<!-- El primer cliente -->
+  <cliente>
+    <nombre>ACNE</nombre>
+    <sector>Tecnologia</sector>
+    <notas><![CDATA[
+    Llamar la proxima semana
+    ]]></notas>
+  </cliente>
+  <cliente>
+    <nombre>Localidad</nombre>
+    <sector>Ambiente</sector>
+    <notas><![CDATA[
+    Enviar facturas la proxima semana
+    ]]></notas>
+  </cliente>
+  <cliente>
+    <nombre>Restaurante KGRB</nombre>
+    <sector>Alimentos y bebidas</sector>
+    <notas><![CDATA[
+     facturas pagadas
+    ]]></notas>
+  </cliente>
+</clientes>
