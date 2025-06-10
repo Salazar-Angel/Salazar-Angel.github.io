@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gestión de Pedidos</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+  <body>
+
+<nav>
+    <ul style="list-style: none; display: flex; gap: 10px; padding: 10px; background-color: #f0f0f0;">
+        <li><a href="SistemaGestiondeInventario.html">Inicio</a></li>
+        <li><a href="Producto.html">Producto</a></li>
+        <li><a href="Entradasalidaproductos.html">Entrada/Salida</a></li>
+        <li><a href="Gestiondepedidos.html">Gestión de Pedidos</a></li>
+        <li><a href="AlertaStock.html">Alerta de Stock</a></li>
+        <li><a href="Reportes.html">Reportes</a></li>
+        <li><a href="Ubicacion.html">Ubicación</a></li>
+    </ul>
+</nav>
+
+    <h1>Gestión de pedidos</h1>
+    <p>
+      Este proceso abarca todas las etapas desde que un cliente realiza una compra hasta que recibe el producto o servicio. 
+      Involucra cuando se hacen pedidos ya sea de la compañía que la distribuye o pedidos que se necesitan traer de manera externa.
+    </p>
+
+    <h2>Formulario de registro de pedido</h2>
+    <form>
+      <label for="nombreProducto">Nombre del producto:</label><br />
+      <input type="text" id="nombreProducto" name="nombreProducto" required /><br /><br />
+
+      <label for="codigoProducto">Código del producto:</label><br />
+      <input type="text" id="codigoProducto" name="codigoProducto" required /><br /><br />
+
+      <label for="pasillo">Seleccione el pasillo:</label><br />
+      <select id="pasillo" name="pasillo" required>
+        <option value="">--Seleccione--</option>
+        <option value="1">1.- Productos de limpieza</option>
+        <option value="2">2.- Bebidas</option>
+        <option value="3">3.- Bebidas alcohólicas</option>
+        <option value="4">4.- Limpieza del hogar</option>
+        <option value="5">5.- Higiene</option>
+        <option value="6">6.- Dulces y snacks</option>
+        <option value="7">7.- Otros</option>
+        <option value="8">8.- Sin clasificar</option>
+      </select><br /><br />
+
+      <label for="fechaRegistro">Fecha del registro:</label><br />
+      <input type="date" id="fechaRegistro" name="fechaRegistro" required /><br /><br />
+
+      <button type="submit">Registrar pedido</button>
+    </form>
+  </body>
+</html>

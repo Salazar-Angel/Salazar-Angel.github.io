@@ -1,0 +1,71 @@
+
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+/* Navegación con Flexbox */
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 15px;
+  padding: 10px;
+  background-color: #e0e0e0;
+  justify-content: center;
+}
+
+nav ul li a {
+  text-decoration: none;
+  padding: 8px 12px;
+  color: #333;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+  background-color: #ccc;
+}
+
+/* Títulos */
+h1, h2 {
+  margin: 20px 0 10px;
+}
+
+/* Formularios */
+form {
+  margin-top: 10px;
+  display: grid;
+  gap: 10px;
+  max-width: 400px;
+}
+
+input, select, button {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Layout con Grid */
+.main-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+/* Modelo de caja en secciones */
+section {
+  padding: 15px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  border-radius: 8px;
+}
